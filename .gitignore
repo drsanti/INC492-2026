@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local / generated
+__pycache__/
+*.pyc
+.godot/
+.import/
+export_presets.cfg
+*.translation
+
+# Python / env
+.venv/
+venv/
+.env
