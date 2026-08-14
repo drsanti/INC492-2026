@@ -7,6 +7,13 @@ For the full 16-topic engineering curriculum, see [teaching-schedule.md](teachin
 
 ## Quiz dates and weights
 
+All quizzes are held at the same time and place:
+
+| | |
+|---|---|
+| **Time** | 09:30–11:30 |
+| **Classroom** | CB40610 |
+
 | Quiz | Date | Week | Weight | Focus |
 |---|---|---:|---:|---|
 | Quiz 1 | **2 September 2026** | 4 | 25% | Blender modeling fundamentals and workshop outcomes |
@@ -27,11 +34,11 @@ Total: **100%**.
 | Weeks | Mode | Goal |
 |---:|---|---|
 | 1–3 | Self practice | Complete the Blender playlist and build simple engineering models |
-| 4 | Quiz 1 | Blender assessment (25%) — **2 Sep 2026** |
+| 4 | Quiz 1 | Blender assessment (25%) — **2 Sep 2026**, 09:30–11:30, CB40610 |
 | 5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene |
-| 9 | Quiz 2 | Godot assessment (35%) — **7 Oct 2026** |
+| 9 | Quiz 2 | Godot assessment (35%) — **7 Oct 2026**, 09:30–11:30, CB40610 |
 | 10–13 | In class | Data telemetry and AI integration |
-| 14 | Quiz 3 | Telemetry/AI assessment (40%) — **11 Nov 2026** |
+| 14 | Quiz 3 | Telemetry/AI assessment (40%) — **11 Nov 2026**, 09:30–11:30, CB40610 |
 
 ---
 
@@ -86,7 +93,7 @@ Then apply the same workflow to one **simple industrial part** for the course pr
 - Separate any part that will later move or change state in the twin.
 - Be ready for Quiz 1.
 
-### Week 4 — Quiz 1 (25%) · 2 September 2026
+### Week 4 — Quiz 1 (25%) · 2 September 2026 · 09:30–11:30 · CB40610
 
 **Scope:** Blender fundamentals from Weeks 1–3.
 
@@ -169,7 +176,7 @@ Then assemble a mini digital twin:
 - One reusable compound equipment scene.
 - Be ready for Quiz 2.
 
-### Week 9 — Quiz 2 (35%) · 7 October 2026
+### Week 9 — Quiz 2 (35%) · 7 October 2026 · 09:30–11:30 · CB40610
 
 **Scope:** Godot digital-twin skills from Weeks 5–8.
 
@@ -194,7 +201,7 @@ These weeks are taught in class. Playlist practice is complete; focus on integra
 
 Bring your Blender assets and Godot twin scene as the visualization layer for this phase. Related curriculum detail: Topics 10–15 in [teaching-schedule.md](teaching-schedule.md).
 
-### Week 14 — Quiz 3 (40%) · 11 November 2026
+### Week 14 — Quiz 3 (40%) · 11 November 2026 · 09:30–11:30 · CB40610
 
 **Scope:** Data telemetry and AI integration from Weeks 10–13.
 

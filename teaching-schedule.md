@@ -12,11 +12,11 @@ Detailed class plans are in [topics/](topics/).
 | Student weeks | Student focus | Related topics |
 |---:|---|---|
 | 1–3 | Blender self-practice | Topics 1–3 (concepts + modeling foundation) |
-| 4 | Quiz 1 | Blender assessment |
+| 4 | Quiz 1 (09:30–11:30, CB40610) | Blender assessment |
 | 5–8 | Godot self-practice | Topics 4–6 (asset pipeline, scenes, state-driven views) |
-| 9 | Quiz 2 | Godot assessment |
+| 9 | Quiz 2 (09:30–11:30, CB40610) | Godot assessment |
 | 10–13 | Telemetry and AI in class | Topics 7–15 (process, control, MQTT, safety, AI) |
-| 14 | Quiz 3 | Integration assessment |
+| 14 | Quiz 3 (09:30–11:30, CB40610) | Integration assessment |
 
 Topics remain the technical roadmap even when early weeks emphasize self-paced Blender/Godot practice.
 

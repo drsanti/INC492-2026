@@ -33,6 +33,13 @@ Simulated process and instruments
 
 ## Quiz dates (important)
 
+All quizzes are held at the same time and place:
+
+| | |
+|---|---|
+| **Time** | 09:30–11:30 |
+| **Classroom** | CB40610 |
+
 | Quiz | Date | Weight | Focus |
 |---|---|---:|---|
 | Quiz 1 | **2 September 2026** | 25% | Blender modeling fundamentals and workshop outcomes |
@@ -46,11 +53,11 @@ Simulated process and instruments
 | Weeks | Mode | Goal |
 |---:|---|---|
 | 1–3 | Self practice | Complete the Blender playlist and build simple engineering models |
-| 4 | Quiz 1 | **2 Sep 2026** · 25% |
+| 4 | Quiz 1 | **2 Sep 2026** · 09:30–11:30 · CB40610 · 25% |
 | 5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene |
-| 9 | Quiz 2 | **7 Oct 2026** · 35% |
+| 9 | Quiz 2 | **7 Oct 2026** · 09:30–11:30 · CB40610 · 35% |
 | 10–13 | In class | Data telemetry and AI integration |
-| 14 | Quiz 3 | **11 Nov 2026** · 40% |
+| 14 | Quiz 3 | **11 Nov 2026** · 09:30–11:30 · CB40610 · 40% |
 
 Details and episode lists: [student-learning-plan.md](student-learning-plan.md)
 
