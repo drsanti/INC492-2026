@@ -1,5 +1,7 @@
 # INC492 — Special Topic II (2026)
 
+![INC492 course cover — AI-Driven HIL with Digital Twins](images/inc492-cover.png)
+
 **AI-Driven Hardware-in-the-Loop with Digital Twins for Embedded Systems and Industrial Automation**
 
 Course materials for INC492. Start here for assessment dates, practice playlists, the teaching schedule, and topic plans.
@@ -109,6 +111,8 @@ The AI agent works at the supervisory level. Fast feedback control, safety limit
 ```text
 INC492-2026/
 ├── README.md                    ← course index (this file)
+├── images/
+│   └── inc492-cover.png         ← README cover infographic
 ├── course-description.md        ← EN/TH course description
 ├── student-learning-plan.md     ← practice calendar + quizzes
 ├── teaching-schedule.md         ← 16-topic curriculum
