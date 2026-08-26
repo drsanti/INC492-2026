@@ -10,6 +10,7 @@ Course materials for INC492. Start here for assessment dates, practice playlists
 |---|---|
 | [Student learning plan](student-learning-plan.md) | Weekly practice (Blender → Godot), deliverables, and quiz scope |
 | [Quiz 1 — Blender (example)](quizzes/quiz1-example_blender.md) | ตัวอย่างโจทย์ Quiz 1: PCB + resistor + capacitor |
+| [Quiz 1 template](quizzes/quiz1_template.blend) | ไฟล์ `.blend` เริ่มต้นที่ต้องใช้ในการสอบเท่านั้น |
 | [Teaching schedule](teaching-schedule.md) | 16-topic engineering curriculum and project data flow |
 | [Topics](topics/) | Detailed class plans for Topics 01–16 |
 | [Course description](course-description.md) | Full course description (English / Thai) |
@@ -113,7 +114,8 @@ INC492-2026/
 ├── teaching-schedule.md         ← 16-topic curriculum
 ├── quizzes/
 │   ├── quiz1-example_blender.md ← ตัวอย่างโจทย์ Quiz 1 (เต็ม 100 คะแนน = 25% ของวิชา)
-│   └── images/                  ← PNG reference sheets
+│   ├── quiz1_template.blend     ← ไฟล์เริ่มต้นบังคับสำหรับ Quiz 1
+│   └── images/                  ← ภาพตัวอย่างผลลัพธ์
 └── topics/                      ← detailed topic plans
     ├── README.md
     ├── topic-01-...

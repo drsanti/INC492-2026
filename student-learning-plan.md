@@ -98,7 +98,8 @@ Then apply the same workflow to one **simple industrial part** for the course pr
 > ควรฝึกโมเดลอุปกรณ์เหล่านี้ด้วย เพราะโจทย์อาจเลือกใช้อุปกรณ์ที่หลากหลาย
 
 > **Tip — ฝึก Modifier เป็นพิเศษ**  
-> เพื่อเพิ่มประสิทธิภาพในการทำงาน ควรฝึก **Boolean modifier**, **Array modifier**, และ **modifier แบบต่าง ๆ** (เช่น Bevel, Solidify, Mirror) ก่อนสอบ
+> เพื่อเพิ่มประสิทธิภาพในการทำงาน ควรฝึก **Boolean modifier**, **Array modifier**, และ **modifier แบบต่าง ๆ** (เช่น Bevel, Solidify, Mirror) ก่อนสอบ  
+> วันสอบต้องเริ่มจาก [`quizzes/quiz1_template.blend`](quizzes/quiz1_template.blend) เท่านั้น
 
 ### Week 4 — Quiz 1 (25% ของวิชา · เต็ม 100 คะแนน) · 2 September 2026 · 09:30–11:30 · CB40610
 
