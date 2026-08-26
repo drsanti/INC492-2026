@@ -16,7 +16,7 @@ All quizzes are held at the same time and place:
 
 | Quiz | Date | Week | Weight | Focus |
 |---|---|---:|---:|---|
-| Quiz 1 | **2 September 2026** | 4 | 25% | Blender modeling fundamentals and workshop outcomes |
+| Quiz 1 | **2 September 2026** | 4 | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
 | Quiz 2 | **7 October 2026** | 9 | 35% | Godot digital-twin scene, scripting, and asset workflow |
 | Quiz 3 | **11 November 2026** | 14 | 40% | Data telemetry and AI integration (Weeks 10–13) |
 
@@ -93,17 +93,28 @@ Then apply the same workflow to one **simple industrial part** for the course pr
 - Separate any part that will later move or change state in the twin.
 - Be ready for Quiz 1.
 
-### Week 4 — Quiz 1 (25%) · 2 September 2026 · 09:30–11:30 · CB40610
+> **Note — การเตรียมตัวสอบ Quiz 1**  
+> นอกจาก PCB, resistor และ capacitor แล้ว ในวงจรอิเล็กทรอนิกส์ทั่วไปยังมี **IC**, **wire**, **LED**, **connector**, และ **switch** แบบต่าง ๆ  
+> ควรฝึกโมเดลอุปกรณ์เหล่านี้ด้วย เพราะโจทย์อาจเลือกใช้อุปกรณ์ที่หลากหลาย
 
-**Scope:** Blender fundamentals from Weeks 1–3.
+> **Tip — ฝึก Modifier เป็นพิเศษ**  
+> เพื่อเพิ่มประสิทธิภาพในการทำงาน ควรฝึก **Boolean modifier**, **Array modifier**, และ **modifier แบบต่าง ๆ** (เช่น Bevel, Solidify, Mirror) ก่อนสอบ
+
+### Week 4 — Quiz 1 (25% ของวิชา · เต็ม 100 คะแนน) · 2 September 2026 · 09:30–11:30 · CB40610
+
+Full quiz sheet: [quizzes/quiz1-example_blender.md](quizzes/quiz1-example_blender.md)
+
+**Scope:** สร้าง assembly ของ PCB + resistor + capacitor ใน Blender
 
 Expect checks on:
 
-- viewport navigation and transforms
-- edit-mode modeling
-- materials and object organization
-- workshop results (resistor / capacitor)
-- ability to produce a clean engineering mesh for later Godot import
+- ขนาด PCB และรูเจาะ (mounting / pad holes)
+- resistor 4-band และการตั้งค่า materials
+- electrolytic capacitor และแถบ polarity (−)
+- การประกอบชิ้นส่วนเข้า pads, naming, Apply Scale
+- การส่งไฟล์ `.blend` และ screenshot
+
+**คะแนนย่อย:** A PCB 30 · B Resistor 30 · C Capacitor 25 · D Assembly 15 = **100**
 
 ---
 

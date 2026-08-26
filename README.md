@@ -9,6 +9,7 @@ Course materials for INC492. Start here for assessment dates, practice playlists
 | Document | Description |
 |---|---|
 | [Student learning plan](student-learning-plan.md) | Weekly practice (Blender → Godot), deliverables, and quiz scope |
+| [Quiz 1 — Blender (example)](quizzes/quiz1-example_blender.md) | ตัวอย่างโจทย์ Quiz 1: PCB + resistor + capacitor |
 | [Teaching schedule](teaching-schedule.md) | 16-topic engineering curriculum and project data flow |
 | [Topics](topics/) | Detailed class plans for Topics 01–16 |
 | [Course description](course-description.md) | Full course description (English / Thai) |
@@ -42,7 +43,7 @@ All quizzes are held at the same time and place:
 
 | Quiz | Date | Weight | Focus |
 |---|---|---:|---|
-| Quiz 1 | **2 September 2026** | 25% | Blender modeling fundamentals and workshop outcomes |
+| Quiz 1 | **2 September 2026** | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
 | Quiz 2 | **7 October 2026** | 35% | Godot digital-twin scene, scripting, and asset workflow |
 | Quiz 3 | **11 November 2026** | 40% | Data telemetry and AI integration (Weeks 10–13) |
 
@@ -110,6 +111,9 @@ INC492-2026/
 ├── course-description.md        ← EN/TH course description
 ├── student-learning-plan.md     ← practice calendar + quizzes
 ├── teaching-schedule.md         ← 16-topic curriculum
+├── quizzes/
+│   ├── quiz1-example_blender.md ← ตัวอย่างโจทย์ Quiz 1 (เต็ม 100 คะแนน = 25% ของวิชา)
+│   └── images/                  ← PNG reference sheets
 └── topics/                      ← detailed topic plans
     ├── README.md
     ├── topic-01-...
