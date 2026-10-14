@@ -3,7 +3,8 @@
 Self-paced practice outside class, plus three graded quizzes.
 
 Use this document for **what to practice each calendar week** and **when quizzes happen**.  
-For the full 16-topic engineering curriculum, see [teaching-schedule.md](teaching-schedule.md) and [topics/](topics/).
+For the full 16-topic engineering curriculum, see [teaching-schedule.md](teaching-schedule.md) and [topics/](topics/).  
+Software installation and self-study prerequisites are in [assignments/](assignments/).
 
 ## Quiz dates and weights
 

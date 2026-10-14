@@ -15,6 +15,7 @@ Course materials for INC492. Start here for assessment dates, practice playlists
 | [Quiz 1 template](quizzes/quiz1_template.blend) | ไฟล์ `.blend` เริ่มต้นที่ต้องใช้ในการสอบเท่านั้น |
 | [Teaching schedule](teaching-schedule.md) | 16-topic engineering curriculum and project data flow |
 | [Topics](topics/) | Detailed class plans for Topics 01–16 |
+| [Assignments](assignments/) | Required software, prerequisite knowledge, and system architecture |
 | [Course description](course-description.md) | Full course description (English / Thai) |
 
 ## Course at a glance
@@ -120,6 +121,10 @@ INC492-2026/
 │   ├── quiz1-example_blender.md ← ตัวอย่างโจทย์ Quiz 1 (เต็ม 100 คะแนน = 25% ของวิชา)
 │   ├── quiz1_template.blend     ← ไฟล์เริ่มต้นบังคับสำหรับ Quiz 1
 │   └── images/                  ← ภาพตัวอย่างผลลัพธ์
+├── assignments/
+│   ├── required-dev-tools.md    ← software to install + verification checklist
+│   ├── required-knowledge.md    ← self-study prerequisites
+│   └── system-architecture.md   ← Python ↔ MQTT (Docker) ↔ Godot reference design
 └── topics/                      ← detailed topic plans
     ├── README.md
     ├── topic-01-...
@@ -128,13 +133,17 @@ INC492-2026/
 
 ## Software to install
 
+Install everything in [required dev tools](assignments/required-dev-tools.md) **before the first lab session** — it has per-OS download links and a verification checklist. Prerequisite skills to self-study are in [required knowledge](assignments/required-knowledge.md).
+
 | Software | Purpose |
 |---|---|
-| Blender | 3D equipment modeling |
+| Blender | 3D equipment modeling (playlist EP02 covers install) |
 | Godot (with C# / .NET support) | Digital twin and operator UI |
-| Python 3 | Process model and control |
-| MQTT broker client tools | Telemetry inspection |
-| Git + code editor (VS Code recommended) | Version control and scripting |
+| Docker | Local MQTT broker and lab services |
+| MQTTX | MQTT client for telemetry inspection |
+| Python 3.11+ | Process model and control |
+| Node.js LTS | Tooling and agent integrations |
+| Git + VS Code (+ Git Bash on Windows) | Version control and scripting |
 
 ## Course description (short)
 
