@@ -13,7 +13,7 @@ Course materials for INC492. Start here for assessment dates, practice playlists
 | [Student learning plan](student-learning-plan.md) | Weekly practice (Blender → Godot), deliverables, and quiz scope |
 | [Quiz 1 — Blender (example)](quizzes/quiz1-example_blender.md) | ตัวอย่างโจทย์ Quiz 1: PCB + resistor + capacitor |
 | [Quiz 1 template](quizzes/quiz1_template.blend) | ไฟล์ `.blend` เริ่มต้นที่ต้องใช้ในการสอบเท่านั้น |
-| [Quiz 3 — Preparation](quizzes/quiz3-prepare.md) | เตรียมสอบ Quiz 3: Blender → Godot → C#/Python MQTT |
+| [Quiz 3 — Preparation](quizzes/quiz3-prepare.md) | Quiz 3: ทฤษฎี 20% (กระดาษ) + ปฏิบัติ 20% (Blender/Godot/MQTT) |
 | [Teaching schedule](teaching-schedule.md) | 16-topic engineering curriculum and project data flow |
 | [Topics](topics/) | Detailed class plans for Topics 01–16 |
 | [Assignments](assignments/) | Required software, prerequisite knowledge, and system architecture |
@@ -51,7 +51,7 @@ All quizzes are held at the same time and place:
 |---|---|---:|---|
 | Quiz 1 | **2 September 2026** | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
 | Quiz 2 | **7 October 2026** | 35% | Godot digital-twin scene, scripting, and asset workflow |
-| Quiz 3 | **11 November 2026** | 40% | Blender→Godot twin + Python/C# MQTT control (see [prep guide](quizzes/quiz3-prepare.md)) |
+| Quiz 3 | **11 November 2026** | 40% | **Theory 20%** (paper) + **Programming 20%** (Blender→Godot↔MQTT) — [prep](quizzes/quiz3-prepare.md) |
 
 **Total: 100%.**
 
@@ -64,7 +64,7 @@ All quizzes are held at the same time and place:
 | 5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene |
 | 9 | Quiz 2 | **7 Oct 2026** · 09:30–11:30 · CB40610 · 35% |
 | 10–13 | In class | Data telemetry and AI integration |
-| 14 | Quiz 3 | **11 Nov 2026** · 09:30–11:30 · CB40610 · 40% |
+| 14 | Quiz 3 | **11 Nov 2026** · 09:30–11:30 · CB40610 · 40% (theory 20% + programming 20%) |
 
 Details and episode lists: [student-learning-plan.md](student-learning-plan.md)
 

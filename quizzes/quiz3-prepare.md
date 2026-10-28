@@ -3,16 +3,52 @@
 - **Date:** 11 November 2026  
 - **Time:** 09:30–11:30  
 - **Room:** CB40610  
-- **Weight:** **40%** of the course grade  
-- **Tools:** Blender · Godot **.NET (C#)** · Python 3.11+ · MQTT (Docker Mosquitto) · MQTTX (test only)
+- **Total weight:** **40%** of the course grade (two parts)  
+- **Tools (programming part):** Blender · Godot **.NET (C#)** · Python 3.11+ · MQTT (Docker Mosquitto) · MQTTX (test only)
 
 This document tells you **what to practice before Quiz 3**. It is a preparation guide, not the sealed exam paper. The real quiz may use a different 3D object or topic name, but the skills below are what you will be tested on.
 
-Quiz 3 builds on Weeks 10–13 (telemetry and twin sync) and on the labs: you must connect a **Python MQTT client** to a **Godot scene** that shows a model you prepared in **Blender**.
+---
+
+## 0. Two parts (grading)
+
+| Part | Format | Weight | What it covers |
+|---|---|---:|---|
+| **A — Theory** | **Paper-based** (written) | **20%** | Concepts from Weeks 10–13 and the labs: MQTT pub/sub, telemetry vs command, twin ownership, main-thread updates, safety / supervisory ideas taught in class |
+| **B — Programming** | Laptop / practical | **20%** | Blender model → Godot import → Godot C# MQTT client → Python MQTT script that drives the scene |
+| | **Total** | **40%** | |
+
+```
+┌─────────────────────────────────────┐
+│           Quiz 3  (40%)             │
+├──────────────────┬──────────────────┤
+│  Part A Theory   │  Part B Program  │
+│  paper-based     │  laptop / labs   │
+│      20%         │       20%        │
+└──────────────────┴──────────────────┘
+```
+
+**Part A** — bring pens; no coding on this part unless the invigilator says otherwise.  
+**Part B** — bring a charged laptop with the course toolchain installed (see §6).
+
+Quiz 3 builds on Weeks 10–13 (telemetry and twin sync) and on the labs: for Part B you must connect a **Python MQTT client** to a **Godot scene** that shows a model you prepared in **Blender**.
 
 ---
 
 ## 1. Learning outcomes (what you must be able to do)
+
+### Part A — Theory (paper)
+
+Be ready to explain in writing (short answers / diagrams / fill-ins as on the sheet):
+
+- [ ] Publisher, subscriber, broker, and topic  
+- [ ] Why Godot should not “own” process state (Python / simulator owns numbers)  
+- [ ] Difference between telemetry and command messages  
+- [ ] Why MQTT callbacks must not update Godot nodes directly (main-thread queue)  
+- [ ] Basic twin data path: Python → MQTT → Godot visualization  
+- [ ] Class topics from Weeks 10–13 (sync, supervision / safety) as taught in lectures  
+
+### Part B — Programming (practical)
 
 | # | Skill | Practice with |
 |---|---|---|
@@ -21,11 +57,11 @@ Quiz 3 builds on Weeks 10–13 (telemetry and twin sync) and on the labs: you mu
 | 3 | **Godot C# + MQTT** | Subscribe (and optionally publish); move/rotate objects from messages |
 | 4 | **Python MQTT client** | Publish commands / telemetry that drive the Godot scene |
 
-If you can complete the **example question** in §5 end-to-end on your laptop, you are close to ready.
+If you can complete the **example question** in §5 end-to-end on your laptop, you are close to ready for **Part B**.
 
 ---
 
-## 2. System you will use in the quiz
+## 2. System you will use in the quiz (Part B)
 
 Quiz 3 follows the course stack: **Python owns commands / numbers**, **Godot visualizes**, **MQTT carries messages**. MQTTX is for checking only.
 
@@ -129,7 +165,7 @@ You may use `rpm` instead of `speed` if you document the conversion. Consistency
 
 ---
 
-## 5. Example question (practice this end-to-end)
+## 5. Example question — Part B programming (practice this end-to-end)
 
 > **Simple question (example)**  
 > Write a **Python script** that controls the **speed** and **direction** of a **motor** in a Godot scene over MQTT.  
@@ -184,11 +220,12 @@ sequenceDiagram
 | Item | Plan |
 |---|---|
 | Time / room | 09:30–11:30 · CB40610 |
-| Bring | Laptop with Blender, Godot .NET, Python, Docker (or class broker), chargers |
+| Part A (20%) | Paper-based theory — follow seating / materials rules from the invigilator |
+| Part B (20%) | Programming — laptop with Blender, Godot .NET, Python, Docker (or class broker), chargers |
 | Network | Be able to run Mosquitto locally (`labs/docker`) if the room broker is unavailable |
 | Integrity | Follow invigilator rules; use only allowed templates/assets if provided on the day |
 
-Exact hand-in filenames and scoring breakdown will be on the **official Quiz 3 sheet** distributed in the room.
+Exact hand-in filenames, time split between parts, and scoring details will be on the **official Quiz 3 sheet** distributed in the room.
 
 ---
 

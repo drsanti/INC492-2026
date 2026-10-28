@@ -19,7 +19,7 @@ All quizzes are held at the same time and place:
 |---|---|---:|---:|---|
 | Quiz 1 | **2 September 2026** | 4 | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
 | Quiz 2 | **7 October 2026** | 9 | 35% | Godot digital-twin scene, scripting, and asset workflow |
-| Quiz 3 | **11 November 2026** | 14 | 40% | Data telemetry and AI integration (Weeks 10–13) |
+| Quiz 3 | **11 November 2026** | 14 | 40% | Theory 20% (paper) + Programming 20% (Blender→Godot↔MQTT) |
 
 Total: **100%**.
 
@@ -39,7 +39,7 @@ Total: **100%**.
 | 5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene |
 | 9 | Quiz 2 | Godot assessment (35%) — **7 Oct 2026**, 09:30–11:30, CB40610 |
 | 10–13 | In class | Data telemetry and AI integration |
-| 14 | Quiz 3 | Telemetry/AI assessment (40%) — **11 Nov 2026**, 09:30–11:30, CB40610 |
+| 14 | Quiz 3 | Theory 20% + Programming 20% — **11 Nov 2026**, 09:30–11:30, CB40610 |
 
 ---
 
@@ -216,25 +216,31 @@ Bring your Blender assets and Godot twin scene as the visualization layer for th
 
 > **Note — การเตรียมตัวสอบ Quiz 3**
 >
+> Quiz 3 = **2 ส่วน** รวม **40%**: **ทฤษฎี (กระดาษ) 20%** + **ปฏิบัติ (โปรแกรม) 20%**  
 > อ่านคู่มือเตรียมสอบ: [`quizzes/quiz3-prepare.md`](quizzes/quiz3-prepare.md)  
-> ฝึกครบ 4 ทักษะ: **Blender modeling** · **Import เข้า Godot** · **C# + MQTT ใน Godot** · **Python MQTT ควบคุมฉาก**  
-> โจทย์ตัวอย่าง: เขียนสคริปต์ Python ควบคุม **ความเร็วและทิศทาง** ของมอเตอร์ในฉาก Godot
+> ฝึกรอบปฏิบัติครบ 4 ทักษะ: **Blender modeling** · **Import เข้า Godot** · **C# + MQTT ใน Godot** · **Python MQTT ควบคุมฉาก**  
+> โจทย์ตัวอย่าง (ปฏิบัติ): เขียนสคริปต์ Python ควบคุม **ความเร็วและทิศทาง** ของมอเตอร์ในฉาก Godot
 
 ### Week 14 — Quiz 3 (40%) · 11 November 2026 · 09:30–11:30 · CB40610
 
-**Scope:** Live twin control over MQTT — Blender model in Godot, driven by Python (Weeks 10–13 + labs).
+**Scope:** Two parts — paper theory (20%) + programming twin control (20%).
 
 Full preparation guide: [quizzes/quiz3-prepare.md](quizzes/quiz3-prepare.md)
 
-Expect checks on:
+**Part A — Theory (paper, 20%)**
+
+- MQTT pub/sub, topics, broker role
+- telemetry vs command; who owns process state
+- twin data path and main-thread update ideas
+- Weeks 10–13 lecture concepts (sync, supervision / safety) as taught in class
+
+**Part B — Programming (20%)**
 
 - 3D modeling in Blender and import into Godot (hierarchy, pivot, scale)
-- telemetry / command message structure and MQTT data flow
 - Godot C# MQTT client (subscribe, parse JSON, update 3D objects on the main thread)
 - Python MQTT client that publishes commands to drive the Godot scene
 - Example pattern: control **motor speed and direction** from Python over MQTT
 - twin update from external data (not keyboard-only demos)
-- AI / supervisory ideas from class only if listed on the official sheet
 
 ---
 
