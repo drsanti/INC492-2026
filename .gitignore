@@ -17,7 +17,12 @@ __pycache__/
 export_presets.cfg
 *.translation
 
+# Exams / quizzes — keep local only; never push to GitHub
+quizzes/
+
 # Python / env
 .venv/
 venv/
 .env
+*.egg-info/
+.pytest_cache/

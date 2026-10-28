@@ -1,0 +1,15 @@
+name: inc492-labs
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: twin-mqtt
+    ports:
+      - "1883:1883" # MQTT over TCP
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto_data:/mosquitto/data
+    restart: unless-stopped
+
+volumes:
+  mosquitto_data:

@@ -2,7 +2,7 @@
 
 Self-study topics you must complete **before they are needed in class**. The Blender and Godot playlists are scheduled in [student-learning-plan.md](../student-learning-plan.md) — this document covers the supporting knowledge those playlists do not teach.
 
-**Install the software first:** several self-checks require the tools in [required-dev-tools.md](required-dev-tools.md) (Docker, MQTTX, Python, Node.js, Git Bash on Windows).
+**Install the software first:** several self-checks require the tools in [required-dev-tools.md](required-dev-tools.md) (Docker, MQTTX, Python, Node.js, Git; **PowerShell 7+ on Windows**).
 
 Each topic ends with a **self-check**. If you cannot complete the self-check, keep practicing before the deadline.
 

@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://c8iaa7rk5m0ig"]
+
+[ext_resource type="Script" uid="uid://usqnqqyoljkh" path="res://BoxScript.cs" id="1_a202f"]
+[ext_resource type="Script" uid="uid://b0bwqm3xs37ac" path="res://BoxTransform.cs" id="2_noarx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4xowi"]
+albedo_color = Color(0.21245298, 0.71323276, 0.6788686, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vrbmo"]
+material = SubResource("StandardMaterial3D_4xowi")
+
+[sub_resource type="Environment" id="Environment_vrbmo"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_mxxps"]
+
+[sub_resource type="Compositor" id="Compositor_5pkl3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mxxps"]
+albedo_color = Color(0.10237994, 0.14165688, 0.13611597, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_vrbmo"]
+material = SubResource("StandardMaterial3D_mxxps")
+size = Vector2(10, 10)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wakbo"]
+albedo_color = Color(0.9140765, 0.50526446, 0.34048077, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_gte04"]
+material = SubResource("StandardMaterial3D_wakbo")
+
+[node name="Node3D" type="Node3D" unique_id=484810355]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=248507449]
+transform = Transform3D(0.698809, 0.19860704, -0.6871835, 0, 0.9606816, 0.27765238, 0.71530825, -0.194026, 0.671333, -2.8974342, 1.0492586, 3.2032886)
+
+[node name="Box1" type="MeshInstance3D" parent="." unique_id=2118940366]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.51580393, 0)
+mesh = SubResource("BoxMesh_vrbmo")
+script = ExtResource("1_a202f")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1179292554]
+environment = SubResource("Environment_vrbmo")
+camera_attributes = SubResource("CameraAttributesPractical_mxxps")
+compositor = SubResource("Compositor_5pkl3")
+
+[node name="Floor" type="MeshInstance3D" parent="." unique_id=975529937]
+mesh = SubResource("PlaneMesh_vrbmo")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=943277251]
+transform = Transform3D(-0.33460757, 0.38839313, -0.8585969, -0.5030264, 0.6968368, 0.51125634, 0.7968704, 0.60296714, -0.03779488, -4.2733555, 3.3271585, 0)
+shadow_enabled = true
+shadow_opacity = 0.5
+shadow_blur = 2.941
+
+[node name="Box2" type="MeshInstance3D" parent="." unique_id=1777011441]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6975522, 0.4968363, 1.5688431)
+mesh = SubResource("BoxMesh_gte04")
+script = ExtResource("2_noarx")
