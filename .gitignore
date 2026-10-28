@@ -17,8 +17,9 @@ __pycache__/
 export_presets.cfg
 *.translation
 
-# Exams / quizzes — keep local only; never push to GitHub
-quizzes/
+# Exam papers only — example sheets / templates may be published
+quizzes/INC492-Quiz1.docx
+quizzes/INC492-Quiz1.pdf
 
 # Python / env
 .venv/
