@@ -214,16 +214,27 @@ These weeks are taught in class. Playlist practice is complete; focus on integra
 
 Bring your Blender assets and Godot twin scene as the visualization layer for this phase. Related curriculum detail: Topics 10–15 in [teaching-schedule.md](teaching-schedule.md).
 
+> **Note — การเตรียมตัวสอบ Quiz 3**
+>
+> อ่านคู่มือเตรียมสอบ: [`quizzes/quiz3-prepare.md`](quizzes/quiz3-prepare.md)  
+> ฝึกครบ 4 ทักษะ: **Blender modeling** · **Import เข้า Godot** · **C# + MQTT ใน Godot** · **Python MQTT ควบคุมฉาก**  
+> โจทย์ตัวอย่าง: เขียนสคริปต์ Python ควบคุม **ความเร็วและทิศทาง** ของมอเตอร์ในฉาก Godot
+
 ### Week 14 — Quiz 3 (40%) · 11 November 2026 · 09:30–11:30 · CB40610
 
-**Scope:** Data telemetry and AI integration from Weeks 10–13.
+**Scope:** Live twin control over MQTT — Blender model in Godot, driven by Python (Weeks 10–13 + labs).
+
+Full preparation guide: [quizzes/quiz3-prepare.md](quizzes/quiz3-prepare.md)
 
 Expect checks on:
 
-- telemetry message structure and data flow
-- twin update from external data
-- AI integration at the supervisory level
-- safe/validated actions versus deterministic control
+- 3D modeling in Blender and import into Godot (hierarchy, pivot, scale)
+- telemetry / command message structure and MQTT data flow
+- Godot C# MQTT client (subscribe, parse JSON, update 3D objects on the main thread)
+- Python MQTT client that publishes commands to drive the Godot scene
+- Example pattern: control **motor speed and direction** from Python over MQTT
+- twin update from external data (not keyboard-only demos)
+- AI / supervisory ideas from class only if listed on the official sheet
 
 ---
 
@@ -241,7 +252,7 @@ Expect checks on:
 | Week 3 | Resistor, capacitor, and one process-component `.blend` |
 | Week 8 | Godot project with a reusable equipment scene and one scripted visual state |
 | Week 13 | Twin connected to class telemetry/AI workflow |
-| Week 14 | Materials and demo notes for Quiz 3 |
+| Week 14 | Materials and demo notes for Quiz 3 — see [quizzes/quiz3-prepare.md](quizzes/quiz3-prepare.md) |
 
 ## How practice supports the course project
 

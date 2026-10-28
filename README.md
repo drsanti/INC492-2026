@@ -13,6 +13,7 @@ Course materials for INC492. Start here for assessment dates, practice playlists
 | [Student learning plan](student-learning-plan.md) | Weekly practice (Blender → Godot), deliverables, and quiz scope |
 | [Quiz 1 — Blender (example)](quizzes/quiz1-example_blender.md) | ตัวอย่างโจทย์ Quiz 1: PCB + resistor + capacitor |
 | [Quiz 1 template](quizzes/quiz1_template.blend) | ไฟล์ `.blend` เริ่มต้นที่ต้องใช้ในการสอบเท่านั้น |
+| [Quiz 3 — Preparation](quizzes/quiz3-prepare.md) | เตรียมสอบ Quiz 3: Blender → Godot → C#/Python MQTT |
 | [Teaching schedule](teaching-schedule.md) | 16-topic engineering curriculum and project data flow |
 | [Topics](topics/) | Detailed class plans for Topics 01–16 |
 | [Assignments](assignments/) | Required software, prerequisite knowledge, and system architecture |
@@ -50,7 +51,7 @@ All quizzes are held at the same time and place:
 |---|---|---:|---|
 | Quiz 1 | **2 September 2026** | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
 | Quiz 2 | **7 October 2026** | 35% | Godot digital-twin scene, scripting, and asset workflow |
-| Quiz 3 | **11 November 2026** | 40% | Data telemetry and AI integration (Weeks 10–13) |
+| Quiz 3 | **11 November 2026** | 40% | Blender→Godot twin + Python/C# MQTT control (see [prep guide](quizzes/quiz3-prepare.md)) |
 
 **Total: 100%.**
 
@@ -121,6 +122,7 @@ INC492-2026/
 ├── quizzes/
 │   ├── quiz1-example_blender.md ← ตัวอย่างโจทย์ Quiz 1 (เต็ม 100 คะแนน = 25% ของวิชา)
 │   ├── quiz1_template.blend     ← ไฟล์เริ่มต้นบังคับสำหรับ Quiz 1
+│   ├── quiz3-prepare.md         ← คู่มือเตรียมสอบ Quiz 3 (MQTT twin control)
 │   └── images/                  ← ภาพตัวอย่างผลลัพธ์
 ├── assignments/
 │   ├── required-dev-tools.md    ← software to install + verification checklist
