@@ -18,7 +18,7 @@ export_presets.cfg
 *.translation
 
 # Exams / quizzes — keep local only; never push to GitHub
-# quizzes/
+quizzes/
 
 # Python / env
 .venv/
@@ -26,6 +26,3 @@ venv/
 .env
 *.egg-info/
 .pytest_cache/
-
-quizzes/INC492-Quiz1.docx
-quizzes/INC492-Quiz1.pdf
