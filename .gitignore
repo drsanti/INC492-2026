@@ -26,3 +26,6 @@ venv/
 .env
 *.egg-info/
 .pytest_cache/
+
+quizzes/INC492-Quiz1.docx
+quizzes/INC492-Quiz1.pdf
