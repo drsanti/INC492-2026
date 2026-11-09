@@ -8,28 +8,28 @@ Course materials for INC492. Start here for assessment dates, practice playlists
 
 ## Quick links
 
-| Document | Description |
-|---|---|
-| [Student learning plan](student-learning-plan.md) | Weekly practice (Blender → Godot), deliverables, and quiz scope |
-| [Quiz 1 — Blender (example)](quizzes/quiz1-example_blender.md) | ตัวอย่างโจทย์ Quiz 1: PCB + resistor + capacitor |
-| [Quiz 1 template](quizzes/quiz1_template.blend) | ไฟล์ `.blend` เริ่มต้นที่ต้องใช้ในการสอบเท่านั้น |
-| [Quiz 3 — Preparation](quizzes/quiz3-prepare.md) | Quiz 3: ทฤษฎี 20% (กระดาษ) + ปฏิบัติ 20% (Blender/Godot/MQTT) |
-| [Teaching schedule](teaching-schedule.md) | 16-topic engineering curriculum and project data flow |
-| [Topics](topics/) | Detailed class plans for Topics 01–16 |
-| [Assignments](assignments/) | Required software, prerequisite knowledge, and system architecture |
-| [Labs](labs/) | Step-by-step stack labs (Docker MQTT → simulator → Godot) |
-| [Course description](course-description.md) | Full course description (English / Thai) |
+| Document                                                       | Description                                                        |
+| -------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [Student learning plan](student-learning-plan.md)              | Weekly practice (Blender → Godot), deliverables, and quiz scope    |
+| [Quiz 1 — Blender (example)](quizzes/quiz1-example_blender.md) | ตัวอย่างโจทย์ Quiz 1: PCB + resistor + capacitor                   |
+| [Quiz 1 template](quizzes/quiz1_template.blend)                | ไฟล์ `.blend` เริ่มต้นที่ต้องใช้ในการสอบเท่านั้น                   |
+| [Quiz 3 — Preparation](quizzes/quiz3-prepare.md)               | Quiz 3: ทฤษฎี 20% (กระดาษ) + ปฏิบัติ 20% (Blender/Godot/MQTT)      |
+| [Teaching schedule](teaching-schedule.md)                      | 16-topic engineering curriculum and project data flow              |
+| [Topics](topics/)                                              | Detailed class plans for Topics 01–16                              |
+| [Assignments](assignments/)                                    | Required software, prerequisite knowledge, and system architecture |
+| [Labs](labs/)                                                  | Step-by-step stack labs (Docker MQTT → simulator → Godot)          |
+| [Course description](course-description.md)                    | Full course description (English / Thai)                           |
 
 ## Course at a glance
 
-| Item | Detail |
-|---|---|
-| Course code | INC492 |
-| Title | Special Topic II |
-| Year | 2026 |
-| Format | 16 topics · one 3-hour class per topic |
-| Tools | Blender, Godot, Python, MQTT |
-| Focus | Simulated process/instrumentation, deterministic control, Godot digital twin, AI-agent supervision |
+| Item        | Detail                                                                                             |
+| ----------- | -------------------------------------------------------------------------------------------------- |
+| Course code | INC492                                                                                             |
+| Title       | Special Topic II                                                                                   |
+| Year        | 2026                                                                                               |
+| Format      | 16 topics · one 3-hour class per topic                                                             |
+| Tools       | Blender, Godot, Python, MQTT                                                                       |
+| Focus       | Simulated process/instrumentation, deterministic control, Godot digital twin, AI-agent supervision |
 
 ```text
 Simulated process and instruments
@@ -42,59 +42,59 @@ Simulated process and instruments
 
 All quizzes are held at the same time and place:
 
-| | |
-|---|---|
-| **Time** | 09:30–11:30 |
-| **Classroom** | CB40610 |
+|               |             |
+| ------------- | ----------- |
+| **Time**      | 09:30–11:30 |
+| **Classroom** | CB40610     |
 
-| Quiz | Date | Weight | Focus |
-|---|---|---:|---|
-| Quiz 1 | **2 September 2026** | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
-| Quiz 2 | **7 October 2026** | 35% | Godot digital-twin scene, scripting, and asset workflow |
-| Quiz 3 | **11 November 2026** | 40% | **Theory 20%** (paper) + **Programming 20%** (Blender→Godot↔MQTT) — [prep](quizzes/quiz3-prepare.md) |
+| Quiz   | Date                                |               Weight | Focus                                                                                                |
+| ------ | ----------------------------------- | -------------------: | ---------------------------------------------------------------------------------------------------- |
+| Quiz 1 | **2 September 2026**                | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender                                                                |
+| Quiz 2 | **7 October 2026**                  |                  35% | Godot digital-twin scene, scripting, and asset workflow                                              |
+| Quiz 3 | ~~**11 Nov 2026**~~ **18 Nov 2026** |                  40% | **Theory 20%** (paper) + **Programming 20%** (Blender→Godot↔MQTT) — [prep](quizzes/quiz3-prepare.md) |
 
 **Total: 100%.**
 
 ## Student calendar overview
 
-| Weeks | Mode | Goal |
-|---:|---|---|
-| 1–3 | Self practice | Complete the Blender playlist and build simple engineering models |
-| 4 | Quiz 1 | **2 Sep 2026** · 09:30–11:30 · CB40610 · 25% |
-| 5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene |
-| 9 | Quiz 2 | **7 Oct 2026** · 09:30–11:30 · CB40610 · 35% |
-| 10–13 | In class | Data telemetry and AI integration |
-| 14 | Quiz 3 | **11 Nov 2026** · 09:30–11:30 · CB40610 · 40% (theory 20% + programming 20%) |
+| Weeks | Mode          | Goal                                                                                             |
+| ----: | ------------- | ------------------------------------------------------------------------------------------------ |
+|   1–3 | Self practice | Complete the Blender playlist and build simple engineering models                                |
+|     4 | Quiz 1        | **2 Sep 2026** · 09:30–11:30 · CB40610 · 25%                                                     |
+|   5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene                                    |
+|     9 | Quiz 2        | **7 Oct 2026** · 09:30–11:30 · CB40610 · 35%                                                     |
+| 10–13 | In class      | Data telemetry and AI integration                                                                |
+|    14 | Quiz 3        | ~~**11 Nov 2026**~~ **18 Nov 2026** · 09:30–11:30 · CB40610 · 40% (theory 20% + programming 20%) |
 
 Details and episode lists: [student-learning-plan.md](student-learning-plan.md)
 
 ## Required playlists
 
-| Tool | Playlist | Link |
-|---|---|---|
-| Blender | INC111-2021 (11 episodes) | [YouTube](https://www.youtube.com/watch?v=V0gtC1EGuX0&list=PLBPFpqyTjzeVCRoOEIDrqF07M8cXTfIXY) |
-| Godot | Digital Twin: Godot+Blender (15 episodes) | [YouTube](https://www.youtube.com/watch?v=omxoBna0mQg&list=PLBPFpqyTjzeVOlpJCVfwJpBwCGZvXoce1) |
+| Tool    | Playlist                                  | Link                                                                                           |
+| ------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Blender | INC111-2021 (11 episodes)                 | [YouTube](https://www.youtube.com/watch?v=V0gtC1EGuX0&list=PLBPFpqyTjzeVCRoOEIDrqF07M8cXTfIXY) |
+| Godot   | Digital Twin: Godot+Blender (15 episodes) | [YouTube](https://www.youtube.com/watch?v=omxoBna0mQg&list=PLBPFpqyTjzeVOlpJCVfwJpBwCGZvXoce1) |
 
 ## Topics index
 
-| Topic | Title |
-|---:|---|
-| 1 | [Digital Twins, SIL, and HIL](topics/topic-01-digital-twin-sil-hil.md) |
-| 2 | [Architecture and Requirements](topics/topic-02-architecture-and-requirements.md) |
-| 3 | [Blender Modeling for Engineering Visualization](topics/topic-03-blender-modeling.md) |
-| 4 | [Blender-to-Godot Workflow](topics/topic-04-blender-to-godot.md) |
-| 5 | [Godot Scenes and Engineering UI](topics/topic-05-godot-scenes-and-ui.md) |
-| 6 | [State-Driven Visualization](topics/topic-06-state-driven-visualization.md) |
-| 7 | [Dynamic Process Modeling in Python](topics/topic-07-dynamic-process-modeling.md) |
-| 8 | [Feedback Control](topics/topic-08-feedback-control.md) |
-| 9 | [Sensor and Actuator Models](topics/topic-09-sensor-and-actuator-models.md) |
-| 10 | [MQTT Communication](topics/topic-10-mqtt-communication.md) |
-| 11 | [Real-Time Twin Synchronization](topics/topic-11-real-time-synchronization.md) |
-| 12 | [Supervisory Control and Safety](topics/topic-12-supervisory-control.md) |
-| 13 | [Fault Injection and Test Scenarios](topics/topic-13-fault-injection.md) |
-| 14 | [AI Agent Tools and Structured Actions](topics/topic-14-ai-agent-tools.md) |
-| 15 | [Agent-Driven Diagnosis and Testing](topics/topic-15-agent-diagnosis-and-testing.md) |
-| 16 | [Validation and Final Demonstration](topics/topic-16-validation-and-demonstration.md) |
+| Topic | Title                                                                                 |
+| ----: | ------------------------------------------------------------------------------------- |
+|     1 | [Digital Twins, SIL, and HIL](topics/topic-01-digital-twin-sil-hil.md)                |
+|     2 | [Architecture and Requirements](topics/topic-02-architecture-and-requirements.md)     |
+|     3 | [Blender Modeling for Engineering Visualization](topics/topic-03-blender-modeling.md) |
+|     4 | [Blender-to-Godot Workflow](topics/topic-04-blender-to-godot.md)                      |
+|     5 | [Godot Scenes and Engineering UI](topics/topic-05-godot-scenes-and-ui.md)             |
+|     6 | [State-Driven Visualization](topics/topic-06-state-driven-visualization.md)           |
+|     7 | [Dynamic Process Modeling in Python](topics/topic-07-dynamic-process-modeling.md)     |
+|     8 | [Feedback Control](topics/topic-08-feedback-control.md)                               |
+|     9 | [Sensor and Actuator Models](topics/topic-09-sensor-and-actuator-models.md)           |
+|    10 | [MQTT Communication](topics/topic-10-mqtt-communication.md)                           |
+|    11 | [Real-Time Twin Synchronization](topics/topic-11-real-time-synchronization.md)        |
+|    12 | [Supervisory Control and Safety](topics/topic-12-supervisory-control.md)              |
+|    13 | [Fault Injection and Test Scenarios](topics/topic-13-fault-injection.md)              |
+|    14 | [AI Agent Tools and Structured Actions](topics/topic-14-ai-agent-tools.md)            |
+|    15 | [Agent-Driven Diagnosis and Testing](topics/topic-15-agent-diagnosis-and-testing.md)  |
+|    16 | [Validation and Final Demonstration](topics/topic-16-validation-and-demonstration.md) |
 
 Full curriculum table: [teaching-schedule.md](teaching-schedule.md)
 
@@ -142,16 +142,16 @@ INC492-2026/
 
 Install everything in [required dev tools](assignments/required-dev-tools.md) **before the first lab session** — it has per-OS download links and a verification checklist. Prerequisite skills to self-study are in [required knowledge](assignments/required-knowledge.md).
 
-| Software | Purpose |
-|---|---|
-| Blender | 3D equipment modeling (playlist EP02 covers install) |
-| Godot (with C# / .NET support) | Digital twin and operator UI |
-| Docker | Local MQTT broker and lab services |
-| MQTTX | MQTT client for telemetry inspection |
-| Python 3.11+ | Process model and control |
-| Node.js LTS | Tooling and agent integrations |
-| Git + VS Code | Version control and editing |
-| PowerShell 7+ (Windows) / Terminal (macOS/Linux) | Lab commands |
+| Software                                         | Purpose                                              |
+| ------------------------------------------------ | ---------------------------------------------------- |
+| Blender                                          | 3D equipment modeling (playlist EP02 covers install) |
+| Godot (with C# / .NET support)                   | Digital twin and operator UI                         |
+| Docker                                           | Local MQTT broker and lab services                   |
+| MQTTX                                            | MQTT client for telemetry inspection                 |
+| Python 3.11+                                     | Process model and control                            |
+| Node.js LTS                                      | Tooling and agent integrations                       |
+| Git + VS Code                                    | Version control and editing                          |
+| PowerShell 7+ (Windows) / Terminal (macOS/Linux) | Lab commands                                         |
 
 ## Course description (short)
 
