@@ -19,7 +19,7 @@ All quizzes are held at the same time and place:
 |---|---|---:|---:|---|
 | Quiz 1 | **2 September 2026** | 4 | 25% (เต็ม 100 คะแนน) | PCB + resistor + capacitor ใน Blender |
 | Quiz 2 | **7 October 2026** | 9 | 35% | Godot digital-twin scene, scripting, and asset workflow |
-| Quiz 3 | **11 November 2026** | 14 | 40% | Theory 20% (paper) + Programming 20% (Blender→Godot↔MQTT) |
+| Quiz 3 | **18 November 2026** | 14 | 40% | Theory 20% (paper, Topics 10–15) + Programming 20% (Blender→Godot↔MQTT) |
 
 Total: **100%**.
 
@@ -38,8 +38,8 @@ Total: **100%**.
 | 4 | Quiz 1 | Blender assessment (25%) — **2 Sep 2026**, 09:30–11:30, CB40610 |
 | 5–8 | Self practice | Complete the Godot playlist and assemble a digital-twin scene |
 | 9 | Quiz 2 | Godot assessment (35%) — **7 Oct 2026**, 09:30–11:30, CB40610 |
-| 10–13 | In class | Data telemetry and AI integration |
-| 14 | Quiz 3 | Theory 20% + Programming 20% — **11 Nov 2026**, 09:30–11:30, CB40610 |
+| 10–13 | In class | Data telemetry, synchronization, fault testing, and AI-agent integration |
+| 14 | Quiz 3 | Theory 20% (Topics 10–15) + Programming 20% — **18 Nov 2026**, 09:30–11:30, CB40610 |
 
 ---
 
@@ -208,9 +208,10 @@ Expect checks on:
 These weeks are taught in class. Playlist practice is complete; focus on integrating:
 
 - process and sensor telemetry
-- MQTT or equivalent structured data exchange
-- Godot twin synchronization from live data
-- AI-agent supervision on top of deterministic control and safety rules
+- MQTT and structured data exchange
+- real-time Godot twin synchronization
+- supervisory commands, deterministic safety, and fault scenarios
+- AI-agent tools, structured actions, and evidence-based diagnosis
 
 Bring your Blender assets and Godot twin scene as the visualization layer for this phase. Related curriculum detail: Topics 10–15 in [teaching-schedule.md](teaching-schedule.md).
 
@@ -218,21 +219,23 @@ Bring your Blender assets and Godot twin scene as the visualization layer for th
 >
 > Quiz 3 = **2 ส่วน** รวม **40%**: **ทฤษฎี (กระดาษ) 20%** + **ปฏิบัติ (โปรแกรม) 20%**  
 > อ่านคู่มือเตรียมสอบ: [`quizzes/quiz3-prepare.md`](quizzes/quiz3-prepare.md)  
-> ฝึกรอบปฏิบัติครบ 4 ทักษะ: **Blender modeling** · **Import เข้า Godot** · **C# + MQTT ใน Godot** · **Python MQTT ควบคุมฉาก**  
-> โจทย์ตัวอย่าง (ปฏิบัติ): เขียนสคริปต์ Python ควบคุม **ความเร็วและทิศทาง** ของมอเตอร์ในฉาก Godot
+> ทฤษฎีครอบคลุม **Topics 10–15** ตั้งแต่ MQTT, synchronization, safety, fault injection ไปจนถึง AI Agent tools และ agent-driven diagnosis  
+> ฝึกรอบปฏิบัติครบ 4 ทักษะ: **Blender modeling** · **Import เข้า Godot** · **C# + MQTT ใน Godot** · **Python MQTT ควบคุมฉาก**
 
-### Week 14 — Quiz 3 (40%) · 11 November 2026 · 09:30–11:30 · CB40610
+### Week 14 — Quiz 3 (40%) · 18 November 2026 · 09:30–11:30 · CB40610
 
-**Scope:** Two parts — paper theory (20%) + programming twin control (20%).
+**Scope:** Two parts — paper theory (20%, Topics 10–15) + programming twin integration (20%).
 
 Full preparation guide: [quizzes/quiz3-prepare.md](quizzes/quiz3-prepare.md)
 
 **Part A — Theory (paper, 20%)**
 
-- MQTT pub/sub, topics, broker role
-- telemetry vs command; who owns process state
-- twin data path and main-thread update ideas
-- Weeks 10–13 lecture concepts (sync, supervision / safety) as taught in class
+- Topic 10: MQTT pub/sub, topics, broker, QoS, retained messages, and Last Will
+- Topic 11: timestamps, sequence numbers, latency, stale data, and synchronization
+- Topic 12: supervisory commands, validation gateway, acknowledgments, interlocks, and deterministic safety
+- Topic 13: disturbances, sensor/actuator/process faults, fault injection, and test scenarios
+- Topic 14: AI-agent observe/reason/act/verify loop, restricted tools, structured actions, and validation
+- Topic 15: evidence-based diagnosis, fault hypotheses, diagnostic tests, recovery actions, and verification
 
 **Part B — Programming (20%)**
 
@@ -240,7 +243,7 @@ Full preparation guide: [quizzes/quiz3-prepare.md](quizzes/quiz3-prepare.md)
 - Godot C# MQTT client (subscribe, parse JSON, update 3D objects on the main thread)
 - Python MQTT client that publishes commands to drive the Godot scene
 - Example pattern: control **motor speed and direction** from Python over MQTT
-- twin update from external data (not keyboard-only demos)
+- Test the end-to-end data path and demonstrate that the twin responds to external data (not keyboard-only demos)
 
 ---
 
@@ -266,5 +269,5 @@ Full preparation guide: [quizzes/quiz3-prepare.md](quizzes/quiz3-prepare.md)
 Blender models (Weeks 1–3)
   -> Godot digital twin scene (Weeks 5–8)
     -> telemetry synchronization (Weeks 10–13)
-      -> AI supervisory layer (Weeks 10–13)
+      -> AI supervisory layer (Topics 14–15)
 ```
